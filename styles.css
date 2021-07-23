@@ -6,13 +6,10 @@ body {
 }
 #gameBoard{
     box-sizing: border-box;
-    position: relative;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
-    width: 500px;
-    border: 10px solid gray;
-    border-radius: 10px;
+    border: 6px ridge gray;
     background-color: rgb(197, 201, 149);
 }
 #gameBoard, #w, #b {
@@ -22,7 +19,6 @@ body {
 #w, #b {
     width: 50px;
     height: 50px;
-
 }
 #w {
     background-color: red;
@@ -30,6 +26,21 @@ body {
 #b {
     background-color: black;
 }
-#whiteChecker {
-    border: 1px solid ;
+
+/* checker piece styling */
+#redChecker {
+    margin: auto;
+    background-color: rgb(155, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 50%;
+    width: 75%;
+    height: 75%;
+}
+#blackChecker {
+    margin: auto;
+    background-color: rgb(41, 39, 39);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 50%;
+    width: 75%;
+    height: 75%;
 }

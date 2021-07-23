@@ -11,3 +11,6 @@
     Log 1: So far I have made a relatively okayish looking game board. Positioning and responsive
     layout is still finicky. I will keep messing with that, afterwards I can begin to design individual
     checker pieces. I am excited to get to the programming part but first thing's first.
+
+    Log 2: Made the gameboard a little pretier. Fixed some minor design issues. Still need to implement responsive design. 
+    Game pieces exist now. I may start experimenting with javascript for it and make it better looking after.
