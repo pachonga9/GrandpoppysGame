@@ -1,0 +1,35 @@
+body {
+    background-image: url(assets/wood.jpg);
+    background-color: navy;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gameBoard{
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    border: 10px solid gray;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 149);
+}
+#gameBoard, #w, #b {
+    position: relative;
+    text-align: center;
+}
+#w, #b {
+    width: 50px;
+    height: 50px;
+
+}
+#w {
+    background-color: red;
+}
+#b {
+    background-color: black;
+}
+#whiteChecker {
+    border: 1px solid ;
+}
