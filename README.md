@@ -14,3 +14,5 @@
 
     Log 2: Made the gameboard a little pretier. Fixed some minor design issues. Still need to implement responsive design. 
     Game pieces exist now. I may start experimenting with javascript for it and make it better looking after.
+
+    Log 3: Switched id tags to class tags to avoid multiple uses of the same name. This caused errors in the HTML and will allow for easier identification within the javascript program. Identified each checker numerically using id tags.
