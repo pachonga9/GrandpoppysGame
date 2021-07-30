@@ -16,3 +16,10 @@
     Game pieces exist now. I may start experimenting with javascript for it and make it better looking after.
 
     Log 3: Switched id tags to class tags to avoid multiple uses of the same name. This caused errors in the HTML and will allow for easier identification within the javascript program. Identified each checker numerically using id tags.
+
+    Log 4: Implemented first of the javascript. Added a display area which will show which color's turn it is. 
+    Added a select function which chnages the border color of a selected checker. 
+    Bug to fix with this: If a piece is selected and then another piece of a different color is
+    then selected after, the previously selected checker piece will remain selected. 
+    I will begin to work on mapping the playing area out and attemp to highlight available move tiles
+    for individually selected pieces. 
