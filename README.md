@@ -23,3 +23,16 @@
     then selected after, the previously selected checker piece will remain selected. 
     I will begin to work on mapping the playing area out and attemp to highlight available move tiles
     for individually selected pieces. 
+
+    Log 5: Big changes.
+    Switched style layout to CSS grid. (This is the way.) 
+    Made the html file prettier by using javascipt to generate the 
+    gameboard instead of having rows upon rows of ugly html.
+    Refactored the css stylesheet.
+    The gameboard is now made of divs instead of using table elements.
+    Implementing object oriented programming to make the game engine more concise and easier to work with.
+    Working on mapping out the entire game mechanics within a two demensional array which will update the html as changes
+    to the state of the array occure. 
+    Commented out highlighting mechanics for selected pieces for the time being.
+
+
