@@ -35,4 +35,7 @@
     to the state of the array occure. 
     Commented out highlighting mechanics for selected pieces for the time being.
 
+    Log 6: Draw function now updates the gameboard with checkers depending on what values are within the 2D array.
+    Cleaned up the code a little. 
+
 
